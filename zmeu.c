@@ -31,16 +31,16 @@ static int zmeu_get_name(char *buffer, struct kernel_param *kp) {
 }
 
 int init_module() {
-    printk(KERN_INFO "ZmEu <zmeu@whitehat.ro> @ Loaded.\n");
+    printk(KERN_INFO "ZmEu <zmeu_at_whitehat.ro> @ Loaded.\n");
     set_all_names();
     return 0;
 }
 
 void cleanup_module() {
-    printk(KERN_INFO "ZmEu <zmeu@whitehat.ro> @ Unloaded.\n");
+    printk(KERN_INFO "ZmEu <zmeu_at_whitehat.ro> @ Unloaded.\n");
 }
 
-MODULE_AUTHOR("Creator: ZmEu <zmeu@whitehat.ro> of WhiteHat Security (www.whitehat.ro)");
+MODULE_AUTHOR("Creator: ZmEu <zmeu_at_whitehat.ro> of WhiteHat Security (www.whitehat.ro)");
 MODULE_DESCRIPTION("this idea originally came from dreams, i dont believe its know until now that evince is also there.");
 MODULE_LICENSE("WHITEHAT");
 
