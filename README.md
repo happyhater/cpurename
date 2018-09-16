@@ -1,4 +1,4 @@
-CPU Rename 0.1 - ZmEu <zmeu@whitehat.ro>
+CPU Rename 0.1 - ZmEu <zmeu_at_whitehat.ro>
 ===========
 
 This is a completely pointless module whose purpose is to change the CPU model name
